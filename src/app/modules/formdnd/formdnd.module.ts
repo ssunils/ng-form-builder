@@ -1,9 +1,9 @@
-import {NgModule} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {FormdndComponent} from './formdnd.component';
-import {DraggableDirective} from './draggable.directive';
-import {DroppableDirective} from './droppable.directive';
-import {DragService} from "./drag.service";
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormdndComponent } from './formdnd.component';
+import { DraggableDirective } from './draggable.directive';
+import { DroppableDirective } from './droppable.directive';
+import { DragService } from "./drag.service";
 
 @NgModule({
     imports: [
